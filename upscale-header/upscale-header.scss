@@ -1,0 +1,13 @@
+@import '~styles/helpers/_module';
+
+$row-height: 54px;
+
+:host {
+    .header {
+		&__logo-image {
+			&.desktop {
+				max-height: 130px;
+			}
+		}
+	}
+}
